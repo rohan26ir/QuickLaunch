@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <title>QuickLaunch</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>QuickLaunch</title>
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -19,127 +19,208 @@
       }
     }
   </script>
-  <!-- Tailwind CSS end -->
-</head>
-<body class=" bg-[#F0F0F0] ">
-  <header class="w-10/12 mx-auto  bg-[url('./assets/Path.png')] bg-no-repeat bg-right">
-    <!-- Navbar -->
-    <div class="flex justify-between items-center py-3">
-      <div class="flex justify-between gap-6 text-[#37447E]">
-        <div>Home</div>
-        <div>About</div>
-        <div>Contact</div>
+    <!-- Tailwind CSS end -->
+  </head>
+  <body class="">
+    <header
+      class="w-10/12 mx-auto  bg-[url('./assets/Path.png')] bg-no-repeat bg-right">
+      <!-- Navbar -->
+      <div class="flex justify-between items-center py-3">
+        <div class="flex justify-between gap-6 text-[#37447E]">
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Home</h3></a>  </div>
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">About</h3></a>  </div>
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Contact</h3></a>  </div>
+        </div>
+        <div>
+          <h1 class="text-[#37447E] text-2xl font-bold">QuickLaunch</h1>
+        </div>
+        <div>
+          <button class="bg-[#111B46] text-white px-8 py-2">Buy Now</button>
+        </div>
       </div>
-      <div>
-        <h1 class="text-[#37447E] text-2xl font-bold">QuickLaunch</h1>
-      </div>
-      <div>
-        <button class="bg-[#111B46] text-white px-8 py-2">Buy Now</button>
-      </div>
-    </div>
-     <!-- Navbar end -->
+      <!-- Navbar end -->
 
+      <!-- Hero section -->
+      <section class="mt-40 mb-20">
+        <div class="flex flex-col md:flex-row gap-6 justify-between">
+          <div class="w-[50%]">
+            <h2 class="text-[2.5rem] font-bold">Introduce Your Product
+              <br>Quickly & Effectively</h2>
 
-    <!-- Hero section -->
-     <section class="mt-40">
-      <div class="flex flex-col md:flex-row gap-6 justify-between">
-        <div class="w-[50%]">
-          <h2 class="text-[2.5rem] font-bold">Introduce Your Product <br>Quickly & Effectively</h2>
-  
-          <p class="my-8 text-[#505F98]">
-            Make a powerful first impression with your product! Deliver your core message clearly and concisely, capturing attention instantly. Showcase your unique value, solve customer problems, and drive action—all in just a few seconds. With the right approach, you'll turn visitors into loyal customers effortlessly.
+            <p class="my-8 text-[#505F98]">
+              Make a powerful first impression with your product! Deliver your
+              core message clearly and concisely, capturing attention instantly.
+              Showcase your unique value, solve customer problems, and drive
+              action—all in just a few seconds. With the right approach, you'll
+              turn visitors into loyal customers effortlessly.
+            </p>
+
+            <div class="flex gap-5">
+              <div><button class="bg-[#111B47] text-white px-12 py-2 ">Purchase
+                  UI Kit</button></div>
+              <div><button
+                  class="bg-white text-black px-12 py-2 border-2 border-black">Learn
+                  More</button></div>
+            </div>
+
+          </div>
+          <div class>
+            <img
+              class="h-[90%]"
+              src="./assets/Group.png"
+              alt>
+          </div>
+        </div>
+      </section>
+      <!-- Hero section end -->
+    </header>
+
+    <main class="w-10/12 mx-auto bg-[#FFFFFF]">
+      <!-- Launch Smarter section -->
+      <div class="flex  justify-between">
+        <div class>
+          <h2 class="text-3xl font-bold">Launch Smarter, Faster, <br>Better with
+            QuickLaunch</h2>
+
+          <p class="my-3">
+            Streamline your product introductions and captivate your audience
+            effortlessly. QuickLaunch is your ultimate tool for creating
+            impactful first impressions, driving engagement, and turning ideas
+            into success stories—quickly and effectively. Start your journey to
+            success today!
           </p>
 
-          <div class="flex gap-5">
-            <div><button class="bg-[#111B47] text-white px-12 py-2 ">Purchase UI Kit</button></div>
-            <div><button class="bg-white text-black px-12 py-2 border-2 border-black">Learn More</button></div>
+          <div class="flex justify-between gap-3 mt-8">
+            <div>
+              <img src="./assets/Icon.png" alt>
+              <h3 class="font-semibold">Seamless Product Showcasing</h3>
+              <p>
+                Showcase your product's features clearly and engage your
+                audience.
+              </p>
+            </div>
+            <div>
+              <img src="./assets/Icon.png" alt>
+              <h3 class="font-semibold">Accelerate Your Reach</h3>
+              <p>
+                Boost visibility, drive engagement, and reach your audience
+                faster.
+              </p>
+            </div>
           </div>
-  
         </div>
-        <div class="">
-          <img 
-          class="h-[90%]"
-          src="./assets/Group.png" 
-          alt="">
+        <div class="w-[100%]">
+          <img
+            class
+            src="./assets/Capture.PNG"
+            alt>
         </div>
+      </div>
+      <!-- Launch Smarter section end -->
+
+      <!-- 3 sec -->
+       <!-- first card -->
+
+       <div class="py-16 space-y-8">
+        <div class="flex justify-between  ">
+          <div>
+           <img class="h-52" src="./assets/img1.svg" alt="">
+          </div>
+          <div class="px-4">
+           <h3 class="text-2xl font-bold">Get Your Product <br>Noticed Instantly!</h3>
+           <p>Leverage cutting-edge strategies to introduce your product to <br>the right audience, deliver powerful messages, and drive instant <br>purchases. Experience simplicity and speed with our proven methods.</p>
+          </div>
+        </div>
+ 
+        <!-- second card -->
+        <div class="flex justify-between  ">
+         <div class="ml-28">
+          <img class="h-52" src="./assets/img2.svg" alt="">
+         </div>
+         <div class="px-4">
+          <h3 class="text-2xl font-bold">Target the Right Audience, <br>Every Time</h3>
+          <p>Say goodbye to wasted efforts. With advanced targeting <br>tools, reach the people who need your product most. <br>Harness insights, analytics, and precision to <br>connect with your ideal customers.</p>
+         </div>
        </div>
-     </section>
-    <!-- Hero section end -->
-  </header>
+        <!-- 3rd card -->
+        <div class="flex justify-between ">
+         <div class="ml-60">
+          <img class="h-52" src="./assets/img3.svg" alt="">
+         </div>
+         <div class="px-4">
+          <h3 class="text-2xl font-bold">Drive Conversions <br>with a Click</h3>
+          <p>Simplify the buying process. Our seamless <br>purchase flow ensures your customers can <br>take action instantly. Boost sales and <br>satisfaction with an intuitive experience.</p>
+         </div>
+       </div>
+       </div>
+      <!-- 3 sec -->
 
-  <main class="w-10/12 mx-auto">
-    <!-- Launch Smarter section -->
-    <div class="flex  justify-between">
-      <div class="">
-        <h2 class="text-3xl font-bold">Launch Smarter, Faster, <br>Better with QuickLaunch</h2>
+      <!-- A Price To Suit Everyone -->
+      <section class="bg-[url('./assets/Rectangle.png')] bg-no-repeat object-center ">
+        <div class="pt-20">
+          <div class="flex justify-center text-center">
+            <div>
+              <h2 class="text-2xl font-bold">A Price To Suit Everyone</h2>
+              <p class="my-3">Find the perfect price for every budget. We offer <br>flexible
+              pricing options to make quality products <br>accessible to
+              everyone.</p>
 
-        <p class="my-3">
-          Streamline your product introductions and captivate your audience effortlessly. QuickLaunch is your ultimate tool for creating impactful first impressions, driving engagement, and turning ideas into success stories—quickly and effectively. Start your journey to success today!
-        </p>
+              <h2 class="text-3xl font-bold">$40</h2>
+              <p class="">Affordable, Quality, Value</p>
 
-        <div class="flex justify-between gap-3">
+              <div class="my-10">
+                <p class="my-3">See, One price. Simple.</p>
+              <button class="bg-[#111B47] text-white px-12 py-2 cursor-pointer">Purchase Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- A Price To Suit Everyone end -->
+
+    </main>
+
+    <footer class="bg-[#E7ECFF] p-12 mt-12 ">
+      <div
+        class="flex justify-between items-center w-11/12 mx-auto pb-6 border-b-2 border-gray-300">
+        <div><p class="text-[#859196]">©2025 QuickLaunch</p></div>
+        <div><p class="text-[#37447E] font-bold text-2xl">QuickLaunch</p></div>
+        <div><p
+            class="bg-[#111B47] text-white px-8 py-2 cursor-pointer">Purchase
+            now</p></div>
+      </div>
+
+      <div class="flex justify-between w-11/12 mx-auto pt-6">
+        <!-- pages -->
+        <div class="flex justify-around gap-6 text-gray-600">
+          <div><p class="cursor-pointer">Home</p></div>
+          <div><p class="cursor-pointer">About</p></div>
+          <div><p class="cursor-pointer">Contact</p></div>
+        </div>
+        <!-- icon -->
+        <div class="flex gap-5">
           <div>
-            <img src="./assets/Icon.png" alt="">
-            <h3 class="font-semibold">Seamless Product Showcasing</h3>
-            <p>
-              Showcase your product's features clearly and engage your audience.
-            </p>
+            <a class="cursor-pointer" href="#"><img src="./assets/facebook.png"
+                alt></a>
           </div>
           <div>
-            <img src="./assets/Icon.png" alt="">
-            <h3 class="font-semibold">Accelerate Your Reach</h3>
-            <p>
-              Boost visibility, drive engagement, and reach your audience faster.
-            </p>
+            <a class="cursor-pointer" href="#"><img src="./assets/linkedin.png"
+                alt></a>
+          </div>
+          <div>
+            <a class="cursor-pointer" href="#"><img src="./assets/twitter.png"
+                alt></a>
+          </div>
+          <div>
+            <a class="cursor-pointer" href="#"><img src="./assets/youtue.png"
+                alt></a>
+          </div>
+          <div>
+            <a class="cursor-pointer" href="#"><img src="./assets/Instagram.png"
+                alt></a>
           </div>
         </div>
       </div>
-      <div class="w-[100%]">
-        <img 
-        class=""
-        src="./assets/Capture.PNG" 
-        alt="">
-      </div>
-    </div>
-    <!-- Launch Smarter section end -->
-
-
-
-  </main>
-
-  <footer class="bg-[#E7ECFF] p-12 mt-12 ">
-    <div class="flex justify-between items-center w-11/12 mx-auto pb-6 border-b-2 border-black">
-      <div><p class="text-[#859196]">©2023 QuickLaunch</p></div>
-      <div><p class="text-[#37447E] font-bold text-2xl">QuickLaunch</p></div>
-      <div><p class="bg-[#111B47] text-white px-8 py-2 cursor-pointer">Purchase now</p></div>
-    </div>
-
-    <div class="flex justify-between w-11/12 mx-auto pt-6">
-      <!-- pages -->
-      <div class="flex justify-around gap-6 text-gray-600">
-        <div><p class="cursor-pointer">Home</p></div>
-        <div><p class="cursor-pointer">About</p></div>
-        <div><p class="cursor-pointer">Contact</p></div>
-      </div>
-      <!-- icon -->
-      <div class="flex gap-5">
-        <div>
-          <a class="cursor-pointer" href="#"><img src="./assets/facebook.png" alt=""></a>
-        </div>
-        <div>
-          <a class="cursor-pointer" href="#"><img src="./assets/linkedin.png" alt=""></a>
-        </div>
-        <div>
-          <a class="cursor-pointer" href="#"><img src="./assets/twitter.png" alt=""></a>
-        </div>
-        <div>
-          <a class="cursor-pointer" href="#"><img src="./assets/youtue.png" alt=""></a>
-        </div>
-        <div>
-          <a class="cursor-pointer" href="#"><img src="./assets/Instagram.png" alt=""></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
