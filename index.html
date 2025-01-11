@@ -26,10 +26,12 @@
       class="w-10/12 mx-auto  bg-[url('./assets/Path.png')] bg-no-repeat bg-right">
       <!-- Navbar -->
       <div class="flex justify-between items-center py-3">
-        <div class="flex justify-between gap-6 text-[#37447E]">
-          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Home</h3></a>  </div>
-          <div> <a href="#"><h3 class="cursor-pointer font-semibold">About</h3></a>  </div>
-          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Contact</h3></a>  </div>
+        <div class="hidden md:block">
+          <div class="flex justify-between gap-6 text-[#37447E]">
+            <div> <a href="#"><h3 class="cursor-pointer font-semibold">Home</h3></a>  </div>
+            <div> <a href="#"><h3 class="cursor-pointer font-semibold">About</h3></a>  </div>
+            <div> <a href="#"><h3 class="cursor-pointer font-semibold">Contact</h3></a>  </div>
+          </div>
         </div>
         <div>
           <h1 class="text-[#37447E] text-2xl font-bold">QuickLaunch</h1>
@@ -38,10 +40,18 @@
           <button class="bg-[#111B46] text-white px-8 py-2">Buy Now</button>
         </div>
       </div>
+
+      <div class="md:hidden">
+        <div class="flex justify-between px-14 py-2 bg-gray-300 rounded-3xl text-[#37447E]">
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Home</h3></a>  </div>
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">About</h3></a>  </div>
+          <div> <a href="#"><h3 class="cursor-pointer font-semibold">Contact</h3></a>  </div>
+        </div>
+      </div>
       <!-- Navbar end -->
 
       <!-- Hero section -->
-      <section class="mt-40 mb-20">
+      <section class=" mt-10 md:mt-32 lg:mt-40 mb-20">
         <div class="flex flex-col md:flex-row gap-6 justify-between">
           <div class="w-[50%]">
             <h2 class="text-[2.5rem] font-bold">Introduce Your Product
