@@ -7,16 +7,12 @@ QuickLaunch is a modern, responsive landing page template designed to showcase y
 - **Responsive Design**: Fully optimized for phones, tablets, and desktops.
 - **Hero Section**: Captivating introduction with a call-to-action.
 - **Smarter Launch Section**: Highlight your product's features and benefits.
-- **Pricing Section**: Simple and transparent pricing.
 - **Footer with Navigation and Social Links**: Easy access to important links and social media.
 
 ## 🚀 Live Demo
 [View Live](https://rohan26ir.github.io/QuickLaunch/)
 
-## 🛠️ Technologies Used
 
-- **HTML**
-- **Tailwind CSS**
 
 ## 📂 Project Structure
 
